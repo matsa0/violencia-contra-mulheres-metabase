@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: ses_source
+    database: sad_tp1
+    schema: dbt_schema_psql
+    tables:
+      - name: dados_completos
+

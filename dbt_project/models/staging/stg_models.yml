@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_source_ses # nome do arquivo SQL
+    description: "Tabela staging com dados de notificação de violência contra mulheres limpos e renomeados."
+    columns:
+      - name: id_notific # o nome renomeado do SQL, se for o caso!
+        tests:
+          - not_null
+          - unique
