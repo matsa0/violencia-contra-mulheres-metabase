@@ -1,0 +1,31 @@
+[0m15:49:18.839325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f170fa70450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f170fc0c8d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f170fa73b90>]}
+
+
+============================== 15:49:18.844769 | 48ac3dc6-cc81-4cc4-9ad1-d7a4db7ab8fd ==============================
+[0m15:49:18.844769 [info ] [MainThread]: Running with dbt=1.10.15
+[0m15:49:18.845719 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'quiet': 'False', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'write_json': 'True', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'introspect': 'True', 'use_colors': 'True', 'static_parser': 'True', 'cache_selected_only': 'False', 'version_check': 'True', 'partial_parse': 'True', 'empty': 'None', 'invocation_command': 'dbt init tp1_modeling', 'no_print': 'None', 'target_path': 'None', 'printer_width': '80', 'fail_fast': 'False', 'profiles_dir': '/home/matsa/.dbt'}
+[0m15:49:18.856328 [info ] [MainThread]: Creating dbt configuration folder at /home/matsa/.dbt
+[0m15:49:18.858908 [debug] [MainThread]: Starter project path: /home/matsa/miniconda3/envs/dbt_env/lib/python3.11/site-packages/dbt/include/starter_project
+[0m15:49:18.862951 [info ] [MainThread]: 
+Your new dbt project "tp1_modeling" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:49:18.863634 [info ] [MainThread]: Setting up your profile.
+[0m16:00:09.391611 [info ] [MainThread]: Profile tp1_modeling written to /home/matsa/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:00:09.393453 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 650.6568, "process_in_blocks": "0", "process_kernel_time": 0.36517, "process_mem_max_rss": "106028", "process_out_blocks": "80", "process_user_time": 1.999586}
+[0m16:00:09.394362 [debug] [MainThread]: Command `dbt init` succeeded at 16:00:09.394200 after 650.66 seconds
+[0m16:00:09.394979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f170fa6b250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f170f150710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f17140ba8d0>]}
+[0m16:00:09.395625 [debug] [MainThread]: Flushing usage events
+[0m16:00:12.008992 [debug] [MainThread]: An error was encountered while trying to flush usage events
